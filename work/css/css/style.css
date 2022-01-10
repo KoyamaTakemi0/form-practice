@@ -96,10 +96,10 @@
 
 input.gender_content{}
 
-input{
-  /* appearance: none; */
-  /* -webkit-appearance: none; */
-  /* -moz-appearance: none; */
+input, select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   background: transparent;
   border: none;
   outline: none;
@@ -126,7 +126,7 @@ input{
   transform: translateY(-50%);
 }
 
-.gender_element:checked + span::after{
+.gender_content:checked + span::after{
   content: "";
   position: absolute;
   top: 50%;
