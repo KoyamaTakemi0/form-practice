@@ -27,7 +27,11 @@
   text-align: center;
 }
 
-.personal_info{
+.personal_info,
+.account_info,
+.contact_info,
+.subscription_info,
+.submit_info{
   margin-top: 50px;
 }
 
